@@ -1,0 +1,8 @@
+[Bb]in/
+[Oo]bj/
+x64/
+x84/
+.vs/
+.user/
+[Ll]og/
+[Ll]ogs/
