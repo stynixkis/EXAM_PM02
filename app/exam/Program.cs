@@ -1,7 +1,4 @@
-﻿using System.IO;
-using System.Text.RegularExpressions;
-
-string path = "";
+﻿string path = "";
 double rasch = 0;
 string rasstInCm = "";
 PrintInputData();
@@ -16,7 +13,6 @@ double[] resultationRast = new double[splitingValueRasstInput.Length];
 for (int i = 0; i < splitingValueRasstInput.Length; i++)
 {
     resultationRast[i] = Convert.ToDouble(splitingValueRasstInput[i]);
-    Console.WriteLine(resultationRast[i]);
 }
 
 double[,] matrixInchid = new double[,]
@@ -35,6 +31,28 @@ double[,] matrixInchid = new double[,]
 
 int markOne = 0;
 int marSecond = 0;
+
+do
+{
+    Console.WriteLine( );
+    PrintDialogWindow();
+
+    var valueSimmMatrix = Methods.Floyd(matrixInchid);
+
+    //for (int i = 0; i < 10; i++)
+    //{
+    //    for (int j = 0; j < 10; j++)
+    //    {
+    //        Console.Write(valueSimmMatrix[i, j]);
+    //    }
+    //    Console.WriteLine();
+    //}
+
+    double cratchRasst = valueSimmMatrix[markOne - 1, marSecond - 1];
+    Console.WriteLine($"\nКратчайшее расстояние между точками {markOne} и {marSecond} = {cratchRasst} км");
+    var itogRash = (rasch * 100) / cratchRasst;
+    Console.WriteLine($"Расход топлива в литрах: {itogRash}");
+} while (true);
 
 void PrintInputData()
 {

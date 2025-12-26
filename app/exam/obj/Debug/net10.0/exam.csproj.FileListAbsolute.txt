@@ -1,0 +1,15 @@
+D:\Users\stu-ipsp122\Desktop\examen\app\exam\bin\Debug\net10.0\exam.exe
+D:\Users\stu-ipsp122\Desktop\examen\app\exam\bin\Debug\net10.0\exam.deps.json
+D:\Users\stu-ipsp122\Desktop\examen\app\exam\bin\Debug\net10.0\exam.runtimeconfig.json
+D:\Users\stu-ipsp122\Desktop\examen\app\exam\bin\Debug\net10.0\exam.dll
+D:\Users\stu-ipsp122\Desktop\examen\app\exam\bin\Debug\net10.0\exam.pdb
+D:\Users\stu-ipsp122\Desktop\examen\app\exam\obj\Debug\net10.0\exam.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\stu-ipsp122\Desktop\examen\app\exam\obj\Debug\net10.0\exam.AssemblyInfoInputs.cache
+D:\Users\stu-ipsp122\Desktop\examen\app\exam\obj\Debug\net10.0\exam.AssemblyInfo.cs
+D:\Users\stu-ipsp122\Desktop\examen\app\exam\obj\Debug\net10.0\exam.csproj.CoreCompileInputs.cache
+D:\Users\stu-ipsp122\Desktop\examen\app\exam\obj\Debug\net10.0\exam.sourcelink.json
+D:\Users\stu-ipsp122\Desktop\examen\app\exam\obj\Debug\net10.0\exam.dll
+D:\Users\stu-ipsp122\Desktop\examen\app\exam\obj\Debug\net10.0\refint\exam.dll
+D:\Users\stu-ipsp122\Desktop\examen\app\exam\obj\Debug\net10.0\exam.pdb
+D:\Users\stu-ipsp122\Desktop\examen\app\exam\obj\Debug\net10.0\exam.genruntimeconfig.cache
+D:\Users\stu-ipsp122\Desktop\examen\app\exam\obj\Debug\net10.0\ref\exam.dll
