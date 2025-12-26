@@ -127,7 +127,7 @@ void PrintDialogWindow()
             if (markValue.Trim() == "#")
             {
                 Console.WriteLine("Выход из программы");
-                return;
+                Environment.Exit(0);
             }
             if (!int.TryParse(markValue.Trim(), out _))
                 flagTrue = false;
@@ -150,7 +150,7 @@ void PrintDialogWindow()
             if (markValue.Trim() == "#")
             {
                 Console.WriteLine("Выход из программы");
-                return;
+                Environment.Exit(0);
             }
             if (!int.TryParse(markValue.Trim(), out _))
                 flagTrue = false;
