@@ -23,6 +23,6 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore app/app.slnx
     - name: Build
-      run: dotnet build app/exam/evam.csproj
+      run: dotnet build app/exam/exam.csproj
     - name: Test
       run: dotnet test app/TestProject1/TestProject1.csproj
